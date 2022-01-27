@@ -1,0 +1,54 @@
+@import url("./style.css");
+
+.contact-form-container {
+  font-family: "Poppins";
+  background-color: #ffaebc;
+}
+
+.contact-form {
+  background-color: #fbe7c6;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+  max-width: 40%;
+  position: relative;
+  left: 33%;
+}
+
+.contact-form > h2 {
+  position: relative;
+  top: 10px;
+  left: 45px;
+}
+
+label {
+  margin-left: 7%;
+  font-size: 16px;
+}
+
+#submit-btn {
+  background-color: #fbe7c6;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-left: 7%;
+  font-weight: bold;
+  font-family: "Poppins";
+  border: 2px solid #1ea896;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #1ea896;
+  transition: 0.5s all ease-in;
+}
+
+.contact-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #1ea896;
+  width: 30%;
+}
+
+textarea,
+input {
+  outline: none;
+}
